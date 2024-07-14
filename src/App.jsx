@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import UserList from "./UserList";
 
 const App = () => {
-    return(<div>
-        <h1>MERN Frontend</h1>
-        <img src="https://t.ly/0EkIO" width="400" height="250" alt="reactImg" />
-        </div>
-    );
+  return (
+    <div>
+      <UserList />
+    </div>
+  );
 };
 
 export default App;
