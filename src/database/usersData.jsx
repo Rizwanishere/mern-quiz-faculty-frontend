@@ -1,4 +1,4 @@
-const users = [
+const usersData = [
   { rollNumber: "160921733061", name: "Ahmad Khan", marks: 25 },
   { rollNumber: "160921733062", name: "Bilal Ahmed", marks: 22 },
   { rollNumber: "160921733063", name: "Hamza Ali", marks: 28 },
@@ -61,4 +61,4 @@ const users = [
   { rollNumber: "160921733120", name: "Mustafa Aziz", marks: 23 },
 ];
 
-export default users;
+export default usersData;
