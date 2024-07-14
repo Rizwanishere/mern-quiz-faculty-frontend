@@ -1,4 +1,4 @@
-const users = [
+const usersData = [
   { rollNumber: "160921733061", name: "Alice Smith", marks: 85 },
   { rollNumber: "160921733062", name: "Bob Johnson", marks: 78 },
   { rollNumber: "160921733063", name: "Charlie Williams", marks: 92 },
