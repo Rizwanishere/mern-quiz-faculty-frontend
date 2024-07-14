@@ -25,17 +25,7 @@ const UserDetails = () => {
       <ol className="list-decimal pl-5">
         {student.questions.map((q, index) => (
           <li key={index} className="mb-2">
-            {q.question}
-            <ul className="list-disc pl-5">
-              {q.options.map((option, idx) => (
-                <li
-                  key={idx}
-                  className={q.selected === option ? "text-red-500" : ""}
-                >
-                  {option}
-                </li>
-              ))}
-            </ul>
+            {q.question} - <span className="text-red-500">{q.selected}</span>
           </li>
         ))}
       </ol>
