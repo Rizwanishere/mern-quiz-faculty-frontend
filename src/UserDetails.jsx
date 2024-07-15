@@ -16,7 +16,7 @@ const UserDetails = () => {
         Answers by {student.name}
         <Link
           to="/students"
-          className="ml-12 text-lg p-1 text-black border rounded border-black"
+          className="ml-20 text-lg p-1 text-black border rounded border-black"
         >
           Back to Students List
         </Link>

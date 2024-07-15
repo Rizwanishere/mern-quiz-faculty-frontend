@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate , Link } from "react-router-dom";
 import usersData from "./database/usersData";
 
 const UserList = () => {
@@ -10,7 +10,10 @@ const UserList = () => {
   };
 
   return (
-    <div>
+    <div className="p-2 m-3">
+      <Link to='/' className="border rounded border-black p-2 md:font-bold">
+        Back to Dashboard
+      </Link>
       <h1 className="text-2xl font-bold mb-4 text-center mt-4">Students List</h1>
       <table className="table-auto w-full border-collapse border border-gray-200">
         <thead>
